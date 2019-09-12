@@ -18,6 +18,8 @@ See and run setup.py
 
 ## How To Run
 1. Populate ./src/photos folder with your data
-2. Run ./facenet/src/classifier.py with param `TRAIN <path to your photos> <path to your models> classifier.pk`
-3. Move ./facenet/src/classifier.pk to ./src/
-4. Run ./src/main.py
+![File Heirarchy](https://github.com/moron96/Python-FaceRecognition/blob/master/file_heirarchy.png)
+2. Extract the pre-trained models into ./src/models
+3. Run ./facenet/src/classifier.py with param `TRAIN <path to your photos> <path to your models> classifier.pk`
+4. Move ./facenet/src/classifier.pk to ./src/
+5. Run ./src/main.py
